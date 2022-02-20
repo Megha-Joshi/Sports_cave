@@ -3,3 +3,7 @@
     color: var(--accent-color);
     text-decoration: underline;
 }
+
+.no-margin {
+    margin: 0px;
+}
