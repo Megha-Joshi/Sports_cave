@@ -9,6 +9,7 @@
 
 .right-nav {
     height: 0rem;
+    align-content: center;
 }
 
 .search-box {
@@ -51,8 +52,4 @@
 
 .btn-only-icon {
     min-width: 0px;
-}
-
-.right-nav{
-    align-content: center;
 }
