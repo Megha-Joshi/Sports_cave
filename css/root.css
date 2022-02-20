@@ -5,15 +5,26 @@
     cursor: pointer;
 }
 
-.btn-no-bg:hover{
+.btn-no-bg:hover {
     color: var(--accent-hover);
-}
-
-.no-margin {
-    margin: 0px;
 }
 
 .sm-text {
     font-weight: 300;
-    font-size: 16px;
+    font-size: 1rem;
+}
+
+.justify-align {
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin: 0.625rem 0rem 1.25rem 0.625rem;
+}
+
+/* Override Component Library */
+
+.no-margin {
+    margin: 0;
 }
