@@ -2,13 +2,29 @@
     background-color: transparent;
     color: var(--accent-color);
     text-decoration: underline;
+    cursor: pointer;
 }
 
-.no-margin {
-    margin: 0px;
+.btn-no-bg:hover {
+    color: var(--accent-hover);
 }
 
 .sm-text {
     font-weight: 300;
-    font-size: 16px;
+    font-size: 1rem;
+}
+
+.justify-align {
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin: 0.625rem 0rem 1.25rem 0.625rem;
+}
+
+/* Override Component Library */
+
+.no-margin {
+    margin: 0;
 }
