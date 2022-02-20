@@ -10,6 +10,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://ozone-ui-library.netlify.app/styles.css">
     <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../css/root.css">
     <link rel="stylesheet" href="./product.css">
     <title>Sporst Cave | Products</title>
@@ -47,61 +48,66 @@
             </div>
             <div>
                 <h4 class="filter-heading">Price</h4>
-                <span>200</span> <input type="range" class="price-range" min="500" max="2000">
+                <div class="range-category">
+                    <span class="sm-txt range-number">300</span>
+                    <span class="sm-txt range-number">700</span>
+                    <span class="sm-txt range-number">1200</span>
+                </div>
+                <input type="range" class="price-range" min="300" max="1200">
             </div>
             <div>
                 <h4 class="filter-heading">Category</h4>
-                <label for="cricket">
+                <label for="cricket" class="disp-new-line">
                     <input type="checkbox" id="cricket" name="cricket" value="Cricket">
                     Cricket
                 </label>
-                <label for="football">
+                <label for="football" class="disp-new-line">
                     <input type="checkbox" id="football" name="football" value="Football">
                     Football
                 </label>
-                <label for="hockey">
+                <label for="hockey" class="disp-new-line">
                     <input type="checkbox" id="hockey" name="hockey" value="Football">
                     Hockey
                 </label>
-                <label for="badminton">
+                <label for="badminton" class="disp-new-line">
                     <input type="checkbox" id="badminton" name="badminton" value="Badminton">
                     Badminton
                 </label>
-                <label for="basketball">
+                <label for="basketball" class="disp-new-line">
                     <input type="checkbox" id="basketball" name="basketball" value="Basketball">
                     Basketball
                 </label>
-                <label for="tennis">
+                <label for="tennis" class="disp-new-line">
                     <input type="checkbox" id="tennis" name="tennis" value="Tennis">
                     Tennis
                 </label>
             </div>
             <div>
                 <h4 class="filter-heading">Ratings</h4>
-                <label for="1star">
+                <label for="1star" class="disp-new-line">
                     <input type="radio" id="1star" name="rating" value="1">
                     1 star & above
                 </label>
-                <label for="2star">
+                <label for="2star" class="disp-new-line">
                     <input type="radio" id="2star" name="rating" value="2">
                     2 star & above
                 </label>
-                <label for="3star">
+                <label for="3star" class="disp-new-line">
                     <input type="radio" id="3star" name="rating" value="3">
                     3 star & above
                 </label>
-                <label for="4star">
+                <label for="4star" class="disp-new-line">
                     <input type="radio" id="4star" name="rating" value="4">
                     4 star & above
                 </label>
             </div>
             <div>
                 <h4 class="filter-heading">Sort by</h4>
-                <label for="l-to-h">
+                <label for="l-to-h" class="disp-new-line">
                     <input type="radio" id="l-to-h" name="sorting" value="low">
                     Price : Low to High
                 </label>
-                <label for="h-to-l">
+                <label for="h-to-l" class="disp-new-line">
                     <input type="radio" id="h-to-l" name="sorting" value="high">
                     Price : High to Low
                 </label>
@@ -114,7 +120,7 @@
                     <article class="card">
                         <div class="card-body">
                             <img src="../images/cricket_bats.jpg" alt="Card Image" class="card-img">
-                            <div class="written">
+                            <div>
                                 <h3 class="card-head">Willow Cricket Bat</h3>
                                 <p class="card-text">₹1,449</p>
                             </div>
@@ -129,7 +135,7 @@
                     <article class="card">
                         <div class="card-body">
                             <img src="../images/badminton_racquet.jpg" alt="Card Image" class="card-img">
-                            <div class="written">
+                            <div>
                                 <h3 class="card-head">Badminton Racquet</h3>
                                 <p class="card-text">₹1,899</p>
                             </div>
@@ -144,7 +150,7 @@
                     <article class="card">
                         <div class="card-body">
                             <img src="../images/shin_guards.jpg" alt="Card Image" class="card-img">
-                            <div class="written">
+                            <div>
                                 <h3 class="card-head">RDX Black Shine Guard</h3>
                                 <p class="card-text">₹1,899</p>
                             </div>
@@ -159,7 +165,7 @@
                     <article class="card">
                         <div class="card-body">
                             <img src="../images/ipl-jersey.jpg" alt="Card Image" class="card-img">
-                            <div class="written">
+                            <div>
                                 <h3 class="card-head">RCB Jersey</h3>
                                 <p class="card-text">₹1,200</p>
                             </div>
@@ -174,7 +180,7 @@
                     <article class="card">
                         <div class="card-body">
                             <img src="../images/backboards_basketball.jpg" alt="Card Image" class="card-img">
-                            <div class="written">
+                            <div>
                                 <h3 class="card-head">Basketball Backboard</h3>
                                 <p class="card-text">₹410</p>
                             </div>
@@ -189,7 +195,7 @@
                     <article class="card">
                         <div class="card-body">
                             <img src="../images/tennis_racquet.jpg" alt="Card Image" class="card-img">
-                            <div class="written">
+                            <div>
                                 <h3 class="card-head">Tennis Racquet with balls</h3>
                                 <p class="card-text">₹999</p>
                             </div>
