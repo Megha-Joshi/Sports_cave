@@ -22,7 +22,7 @@
 
 .text-box {
     position: absolute;
-    font-size: 20px;
+    font-size: 1.25rem;
     top: 5.5rem;
     text-align: center;
 }
@@ -34,12 +34,12 @@
 }
 
 .hero-image {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .cards-category {
     display: flex;
-    margin: 20px;
+    margin: 1.25rem;
     gap: 10rem;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .card-head {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .card-text {
@@ -68,5 +68,5 @@
 }
 
 .res-image {
-    height: 450px;
+    height: 28.125rem;
 }
