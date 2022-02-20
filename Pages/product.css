@@ -1,8 +1,8 @@
 .page-container{
     display: flex;
 }
-.filters {
-    width: 23%;
+.filter {
+    width: 20%;
     height: 100%;
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.1);
     padding: var(--container-padding);
@@ -11,14 +11,18 @@
 .filter-head {
     display: flex;
     gap: var(--container-gap);
+    justify-content: space-between;
+    align-items: center;
 }
 
 .filter-heading {
+    margin: var(--container-margin);
     font-weight: 500;
     color: var(--primary-color);
 }
 .product-container{
     margin: var(--container-margin);
+    width: 80%;
 }
 .title{
     margin: 0.625rem 0rem 1.25rem 0.625rem;

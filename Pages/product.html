@@ -9,8 +9,9 @@
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://ozone-ui-library.netlify.app/styles.css">
-    <link rel="stylesheet" href="\css\navbar.css">
-    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/root.css">
+    <link rel="stylesheet" href="./product.css">
     <title>Sporst Cave | Products</title>
 </head>
 
@@ -39,10 +40,71 @@
         </nav>
     </div>
     <div class="page-container">
-        <aside class="filters">
+        <aside class="filter">
             <div class="filter-head">
                 <h3 class="filter-heading">Filters</h3>
-                <button class="btn btn-info-outline btn-text no-margin">CLEAR ALL</button>
+                <button class="btn btn-no-bg btn-text">CLEAR ALL</button>
+            </div>
+            <div>
+                <h4 class="filter-heading">Price</h4>
+                <span>200</span> <input type="range" class="price-range" min="500" max="2000">
+            </div>
+            <div>
+                <h4 class="filter-heading">Category</h4>
+                <label for="cricket">
+                    <input type="checkbox" id="cricket" name="cricket" value="Cricket">
+                    Cricket
+                </label>
+                <label for="football">
+                    <input type="checkbox" id="football" name="football" value="Football">
+                    Football
+                </label>
+                <label for="hockey">
+                    <input type="checkbox" id="hockey" name="hockey" value="Football">
+                    Hockey
+                </label>
+                <label for="badminton">
+                    <input type="checkbox" id="badminton" name="badminton" value="Badminton">
+                    Badminton
+                </label>
+                <label for="basketball">
+                    <input type="checkbox" id="basketball" name="basketball" value="Basketball">
+                    Basketball
+                </label>
+                <label for="tennis">
+                    <input type="checkbox" id="tennis" name="tennis" value="Tennis">
+                    Tennis
+                </label>
+            </div>
+            <div>
+                <h4 class="filter-heading">Ratings</h4>
+                <label for="1star">
+                    <input type="radio" id="1star" name="rating" value="1">
+                    1 star & above
+                </label>
+                <label for="2star">
+                    <input type="radio" id="2star" name="rating" value="2">
+                    2 star & above
+                </label>
+                <label for="3star">
+                    <input type="radio" id="3star" name="rating" value="3">
+                    3 star & above
+                </label>
+                <label for="4star">
+                    <input type="radio" id="4star" name="rating" value="4">
+                    4 star & above
+                </label>
+            </div>
+            <div>
+                <h4 class="filter-heading">Sort by</h4>
+                <label for="l-to-h">
+                    <input type="radio" id="l-to-h" name="sorting" value="low">
+                    Price : Low to High
+                </label>
+                <label for="h-to-l">
+                    <input type="radio" id="h-to-l" name="sorting" value="high">
+                    Price : High to Low
+                </label>
             </div>
         </aside>
         <div class="product-container">
