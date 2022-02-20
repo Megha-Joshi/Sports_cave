@@ -9,6 +9,7 @@
 
 .right-nav {
     height: 0rem;
+    align-content: center;
 }
 
 .search-box {
@@ -23,24 +24,16 @@
     border: 1px solid var(--accent-color);
 }
 
-/* .fa-search {
-    height: 5px;
-    color: var(--secondary-color);
-} */
 
 .btn {
     margin: 10px;
     padding: 0.7rem;
     min-width: 6.25rem;
-    /* border-radius: var(--container-border-radius); */
     cursor: pointer;
 }
-.btn-round{
-    border-radius: 1.8rem;
-}
 
-.no-margin {
-    margin: 0px;
+.btn-round {
+    border-radius: 1.8rem;
 }
 
 .badge {
@@ -54,6 +47,7 @@
     color: var(--bg-color);
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .btn-only-icon {
