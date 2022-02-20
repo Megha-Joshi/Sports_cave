@@ -2,6 +2,11 @@
     background-color: transparent;
     color: var(--accent-color);
     text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn-no-bg:hover {
+    color: var(--accent-hover);
 }
 
 .no-margin {
@@ -11,4 +16,13 @@
 .sm-text {
     font-weight: 300;
     font-size: 16px;
+}
+
+.justify-align {
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin: 0.625rem 0rem 1.25rem 0.625rem;
 }
