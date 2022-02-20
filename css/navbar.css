@@ -2,15 +2,6 @@
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.1);
 }
 
-.header {
-    gap: 10rem;
-    padding: var(--container-padding);
-}
-
-.right-nav {
-    height: 0rem;
-}
-
 .search-box {
     width: 28rem;
     height: 3rem;
@@ -21,26 +12,6 @@
 
 .search-box:focus {
     border: 1px solid var(--accent-color);
-}
-
-/* .fa-search {
-    height: 5px;
-    color: var(--secondary-color);
-} */
-
-.btn {
-    margin: 10px;
-    padding: 0.7rem;
-    min-width: 6.25rem;
-    /* border-radius: var(--container-border-radius); */
-    cursor: pointer;
-}
-.btn-round{
-    border-radius: 1.8rem;
-}
-
-.no-margin {
-    margin: 0px;
 }
 
 .badge {
@@ -54,6 +25,30 @@
     color: var(--bg-color);
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
+}
+
+/* Override Component Library */
+
+.header {
+    gap: 10rem;
+    padding: var(--container-padding);
+}
+
+.right-nav {
+    height: 0rem;
+    align-content: center;
+}
+
+.btn {
+    margin: 10px;
+    padding: 0.7rem;
+    min-width: 6.25rem;
+    cursor: pointer;
+}
+
+.btn-round {
+    border-radius: 1.8rem;
 }
 
 .btn-only-icon {
