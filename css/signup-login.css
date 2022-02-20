@@ -18,12 +18,12 @@
 
 .input-box {
     width: 100%;
-    margin: 10px 0px;
+    margin: 0.625rem 0rem;
 }
 
 .long-btn {
     width: 100%;
-    margin: 20px 0px;
+    margin: 1.25rem 0rem;
 }
 
 .btn-no-bg {
@@ -44,6 +44,6 @@
 }
 
 .login-head {
-    margin: 10px 20px 20px 20px;
+    margin: 0.625rem 1.25rem 1.25rem 1.25rem;
     text-align: center;
 }

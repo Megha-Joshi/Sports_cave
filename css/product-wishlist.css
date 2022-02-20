@@ -9,8 +9,8 @@
     color: var(--accent-color);
 }
 .card-img{
-    width: 400px;
-    height: 300px;
+    width: 25rem;
+    height: 18.75rem;
 }
 .card-container{
     width: 20rem;
