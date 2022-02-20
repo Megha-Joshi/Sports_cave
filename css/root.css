@@ -1,9 +1,24 @@
-.btn-no-bg{
+.btn-no-bg {
     background-color: transparent;
     color: var(--accent-color);
     text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn-no-bg:hover{
+    color: var(--accent-hover);
 }
 
 .no-margin {
     margin: 0px;
+}
+
+.sm-text {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.justify-align{
+    justify-content: center;
+    align-items: center;
 }
