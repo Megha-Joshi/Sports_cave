@@ -1,0 +1,41 @@
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
+.check-pass{
+    display: flex;
+    justify-content: space-between;
+}
+.form-container{
+    width: 25%;
+    height: 65%;
+}
+.input-box{
+    width: 100%;
+    margin: 10px 0px;
+}
+.long-btn{
+    width: 100%;
+    margin: 20px 0px;
+}
+.btn-no-bg{
+    background-color: transparent;
+    color: var(--accent-color);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btn-no-bg:hover{
+    color: var(--accent-hover);
+}
+.new-ac{
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+.login-head{
+    margin: 10px 20px 20px 20px;
+    text-align: center;
+}
