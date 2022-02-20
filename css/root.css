@@ -28,3 +28,38 @@
 .no-margin {
     margin: 0;
 }
+
+.outline-btn-color {
+    color: var(--accent-color);
+}
+
+.btn-info-outline:hover {
+    background-color: var(--bg-color);
+    text-decoration: underline;
+}
+
+
+.items-color {
+    color: var(--font-color);
+}
+
+.solid-btn-color {
+    color: var(--bg-color);
+}
+
+.btn-no-bg-color {
+    color: var(--accent-color);
+}
+
+.btn-no-bg-color:active {
+    color: var(--accent-hover);
+}
+
+.login-color {
+    color: var(--secondary-color);
+}
+
+.btn-secondary-outline:hover {
+    background: var(--bg-color);
+    text-decoration: underline;
+}

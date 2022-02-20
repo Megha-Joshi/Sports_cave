@@ -60,6 +60,7 @@
 
 .card-head {
     margin-top: 1.25rem;
+    color: var(--font-color);
 }
 
 .card-text {
