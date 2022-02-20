@@ -9,10 +9,6 @@
     color: var(--accent-hover);
 }
 
-.no-margin {
-    margin: 0px;
-}
-
 .sm-text {
     font-weight: 300;
     font-size: 16px;
@@ -25,4 +21,10 @@
 
 .title {
     margin: 0.625rem 0rem 1.25rem 0.625rem;
+}
+
+/* Override Component Library */
+
+.no-margin {
+    margin: 0px;
 }
