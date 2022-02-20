@@ -1,0 +1,20 @@
+.card{
+    height: 28rem;
+}
+.card-head{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+    color: var(--accent-color);
+}
+.card-img{
+    width: 400px;
+    height: 300px;
+}
+.card-container{
+    width: 20rem;
+    height: 20%;
+    gap: var(--container-gap);
+    flex-wrap: wrap;
+}
