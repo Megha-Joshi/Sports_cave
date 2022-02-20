@@ -52,3 +52,7 @@
 .btn-only-icon {
     min-width: 0px;
 }
+
+.right-nav{
+    align-content: center;
+}
